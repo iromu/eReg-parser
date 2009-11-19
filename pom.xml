@@ -12,11 +12,11 @@
 		License.
 	-->
 
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.wantez</groupId>
 	<artifactId>eReg-parser</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>eReg parser</name>
 	<description>
 		Transformador xml a csv, txt, xls
@@ -40,10 +40,10 @@
 	</licenses>
 	<scm>
 		<connection>
-			scm:svn:http://scm.wantez.com/svn/repo1/ieci/eReg-parser/trunk
+			scm:svn:http://scm.wantez.com/svn/repo1/ieci/eReg-parser/tags/eReg-parser-0.0.1
 		</connection>
 		<developerConnection>
-			scm:svn:https://scm.wantez.com/svn/repo1/ieci/eReg-parser/trunk
+			scm:svn:https://scm.wantez.com/svn/repo1/ieci/eReg-parser/tags/eReg-parser-0.0.1
 		</developerConnection>
 	</scm>
 	<build>
