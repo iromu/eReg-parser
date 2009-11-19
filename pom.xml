@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--   Copyright 2009 Ivan Rodriguez Murillo
-	
-	Licensed under the Apache License, Version 2.0 (the "License");
-	you may not use this file except in compliance with the License.
-	You may obtain a copy of the License at
-	
-	http://www.apache.org/licenses/LICENSE-2.0
-	
-	Unless required by applicable law or agreed to in writing, software
-	distributed under the License is distributed on an "AS IS" BASIS,
-	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	See the License for the specific language governing permissions and
-	limitations under the License.
--->
+	<!--
+		Copyright 2009 Ivan Rodriguez Murillo Licensed under the Apache
+		License, Version 2.0 (the "License"); you may not use this file except
+		in compliance with the License. You may obtain a copy of the License
+		at http://www.apache.org/licenses/LICENSE-2.0 Unless required by
+		applicable law or agreed to in writing, software distributed under the
+		License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+	-->
 
 <project>
 	<modelVersion>4.0.0</modelVersion>
@@ -78,35 +75,11 @@
 				</configuration>
 			</plugin>
 			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>xml-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>validate</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<validationSets>
-						<validationSet>
-							<dir>target/test-resources</dir>
-							<systemId>
-								src/test/resources/REGTEL_XFDF_JUST.xml
-							</systemId>
-						</validationSet>
-					</validationSets>
-				</configuration>
-			</plugin>
-			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
 					<descriptors>
 						<descriptor>
 							src/main/assembly/src.xml
-						</descriptor>
-						<descriptor>
-							src/main/assembly/bin.xml
 						</descriptor>
 					</descriptors>
 				</configuration>
@@ -154,6 +127,11 @@
 			<artifactId>junit</artifactId>
 			<version>4.4</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.4</version>
 		</dependency>
 	</dependencies>
 </project>
