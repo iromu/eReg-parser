@@ -16,7 +16,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.wantez</groupId>
 	<artifactId>eReg-parser</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>eReg parser</name>
 	<description>
 		Transformador xml a csv, txt, xls
@@ -40,10 +40,10 @@
 	</licenses>
 	<scm>
 		<connection>
-			scm:svn:http://scm.wantez.com/svn/repo1/ieci/eReg-parser/tags/eReg-parser-0.0.1
+			scm:svn:http://scm.wantez.com/svn/repo1/ieci/eReg-parser/trunk
 		</connection>
 		<developerConnection>
-			scm:svn:https://scm.wantez.com/svn/repo1/ieci/eReg-parser/tags/eReg-parser-0.0.1
+			scm:svn:https://scm.wantez.com/svn/repo1/ieci/eReg-parser/trunk
 		</developerConnection>
 	</scm>
 	<build>
